@@ -1,0 +1,12 @@
+
+
+2.
+SELECT rating, COUNT(*) as count
+FROM sql_schem.netflix_titles
+GROUP BY rating
+ORDER BY count DESC;
+
+3.
+
+SELECT AVG(duration) as average_duration
+FROM  sql_schem.netflix_titles;
